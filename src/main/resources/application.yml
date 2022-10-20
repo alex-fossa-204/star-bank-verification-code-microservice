@@ -1,0 +1,17 @@
+spring:
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6300
+    password: root
+    timeout: 60000
+
+kafka:
+  service:
+    enabled: true
+  bootstrapAddress: 127.0.0.1:9092
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /api-docs
